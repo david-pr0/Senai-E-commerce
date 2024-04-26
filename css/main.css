@@ -1,0 +1,146 @@
+* {
+    background-color: #222222;
+    color: #fff;
+}
+
+header {
+    min-height: 100%;
+}
+
+header img {
+    height: 130px;
+}
+
+header a {
+    margin: 0 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 16px;
+    }
+
+    header a {
+        transform: scale(0.9);
+        margin: 0;
+    }
+
+    #searchbar {
+        margin-top: 8px;
+    }
+
+    #searchbar form {
+        max-width: 95%;
+    }
+
+    #news button,
+    .space {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #about .col {
+        margin-bottom: 8px;
+    }
+}
+
+#searchbar {
+    background-color: black;
+    padding: 8px 0;
+}
+
+#searchbar div {
+    background-color: black;
+}
+
+p {
+    background-color: #333333;
+    font-size: 18px;
+    padding: 8px;
+}
+
+#news {
+    background-color: black;
+}
+
+#news * {
+    background-color: black;
+}
+
+#news button {
+    z-index: 0;
+}
+
+#marketing .col {
+    max-height: 500px;
+}
+
+#products {
+    background-color: black;
+}
+
+#products * {
+    background-color: black;
+}
+
+#products img,
+#products button {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#products img:hover,
+#products button:hover {
+    transform: scale(1.1);
+}
+
+footer h2 {
+    background-color: #304376;
+    padding: 8px;
+    text-align: center;
+}
+
+.form {
+    background-color: #333333;
+    display: block;
+    height: 78px;
+    border: none;
+    resize: none;
+}
+
+footer,
+footer .container {
+    min-height: auto;
+}
+
+#form {
+    overflow: hidden;
+}
+
+#form input {
+    padding: 20px;
+}
+
+textarea {
+    padding: 20px;
+}
+
+footer p,
+button {
+    font-size: 17px;
+    display: block;
+    height: 78px;
+}
+
+footer p {
+    width: 80%;
+}
+
+footer img {
+    height: 78px;
+}
+
+footer .row {
+    height: 110px;
+}
